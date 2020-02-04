@@ -1,0 +1,133 @@
+.default-color0.chart-series-line { -fx-stroke: transparent;}
+.default-color1.chart-series-line { -fx-stroke: red; }
+.default-color2.chart-series-line { -fx-stroke: green; }
+
+ 
+
+.default-color0.chart-line-symbol { -fx-background-color: blue, blue;
+    -fx-opacity: 0.5;
+}
+
+
+.default-color1.chart-line-symbol { -fx-background-color: transparent, transparent; }
+   .default-color6.chart-line-symbol { -fx-background-color: transparent, transparent; }  
+
+/* color and size for waypoint symbol */          
+.chart-symbol.default-color0
+{    -fx-background-color: red;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 5px;
+    -fx-padding: 6px;    
+    }
+
+/* color and size for path symbol*/
+.chart-symbol.default-color1
+{   -fx-shape: ""; 
+	-fx-background-color: blue;
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 2px;
+    -fx-padding: 1px;    
+    }
+    
+/* color and size for exit control point symbol */          
+  .default-color2.chart-symbol { /* diamond */
+	-fx-shape: "M5,0 L10,9 L5,18 L0,9 Z";
+    -fx-background-color: green, white;
+    -fx-background-insets: 0, 2;
+    -fx-min-height: 3px;
+    -fx-max-height: 3px;
+    -fx-min-width: 3px;
+    -fx-max-width: 3px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* color and size for entry control point symbol */                  
+  .default-color3.chart-symbol { /* hollow diamond */
+  	 -fx-shape: "M5,0 L10,9 L5,18 L0,9 Z";
+    -fx-background-color: green, green;
+    -fx-background-insets: 0, 2;
+    -fx-min-height: 3px;
+    -fx-max-height: 3px;
+    -fx-min-width: 3px;
+    -fx-max-width: 3px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* color and size for exit 2nd control point symbol */                  
+  .default-color4.chart-symbol { /* hollow diamond */
+  	 -fx-shape: "M5,0 L10,9 L5,18 L0,9 Z";
+    -fx-background-color:purple,white;
+    -fx-background-insets: 0, 2;
+    -fx-min-height: 3px;
+    -fx-max-height: 3px;
+    -fx-min-width: 3px;
+    -fx-max-width: 3px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+
+/* color and size for entry control point symbol */                  
+  .default-color5.chart-symbol { /* hollow diamond */
+  	 -fx-shape: "M5,0 L10,9 L5,18 L0,9 Z";
+    -fx-background-color: purple,purple;
+    -fx-background-insets: 0, 2;
+    -fx-min-height: 3px;
+    -fx-max-height: 3px;
+    -fx-min-width: 3px;
+    -fx-max-width: 3px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+
+/* color and size for left wheel path symbol  */
+.chart-symbol.default-color6
+{    -fx-background-color: blue;
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 2px;
+    -fx-padding: 1px;    
+    }
+    
+/* color and size for right wheel path symbol  */
+.chart-symbol.default-color7
+{    -fx-background-color: blue;
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 2px;
+    -fx-padding: 1px;    
+    }    
+
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+   }
+
+/* gridpane style*/             
+.grid {
+	-fx-background-color:lavender;
+    -fx-background-radius: 5.0;
+    -fx-background-insets: 0.0 5.0 0.0 5.0;
+    -fx-padding: 5;
+    -fx-hgap: 10;
+    -fx-vgap: 3;
+}
+
+/* hbox style*/          
+.hbox {
+    -fx-padding: 5;
+    -fx-spacing: 10;
+	-fx-background-insets: 10 0 0.0 10;
+}
+ 
+/* vbox style*/           
+.vbox2 {
+    -fx-padding: 5;
+    -fx-spacing: 15;
+	-fx-background-insets: 0 5 0 5;
+	-fx-background-radius: 5.0;
+	-fx-background-color:lavender;
+	
+} 
+    
